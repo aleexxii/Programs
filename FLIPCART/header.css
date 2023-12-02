@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 68px;
+    width: 100%;
+    font-family: sans-serif;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 773.05px;
+    height: 40px;
+    border-radius: 08px;
+    padding: 10px;
+    background-color:#F0F5FF;
+
+}
+.searchBar ion-icon {
+    color: #807d7d;
+    font-size: 25px;   
+}
+.searchBar input {
+    border: none;
+    font-family: Arial,sans-serif;
+    font-size: 17px;
+    width: 100%; 
+    background-color: #f0f5ff;
+    outline: 0;
+}
+.login {
+    width: 111.06px;
+    height: 41.6px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.login:hover {
+    display: flex;
+    width: 111.06px;
+    height: 41.6px;
+    border-radius: 8px;
+    background-color: #2a55e5;
+    color: #fff;
+}
+.login:hover .fa-regular{
+    color: rgb(255, 255, 255);
+}
+.login:hover .spc_icon-arrow{
+    inset: 50%;
+    transform: rotate(180deg);
+}
+
+
+.login:hover .hover-box{
+    visibility: visible;
+}
+.hover-box {
+    position: absolute;
+    width: 278.545px;
+    height: 288px;
+    background-color: #FAFAFA;
+    margin-top: 331px;
+    border-radius: 0px 0px 8px 8px ;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.new-user-container {
+    width: 100%;
+    height: 48.72px;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #a3a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#newcostumer{
+    font-size: Arial,sans-serif;
+    font-size: 18px;
+}
+.hov-name {
+    gap: 10px;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.05px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.hov-name:hover {
+    background-color: rgb(205, 206, 212);
+}
+
+
+.spc_icon {
+    padding-left: 10px;
+    font-family: Arial,sans-serif;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+.spc_icon-arrow {
+    width: fit-content;
+    margin-left: 10px;
+    font-family: Arial,sans-serif;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;  
+}
+.Bcm_Celler {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.more {
+    display: flex;
+    align-items: center;
+}
+/*Category*/
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+.sub-container {
+    display: flex;
+    justify-content: center;
+}
+.item-container {
+    width: 1600px;
+    height: 126px;
+    margin-top: 77px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.Grocery {
+    height: 92.8px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 9px;
+    padding-bottom: 16px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    
+}
+.item-img {
+    width: 90px;
+    height: 64px;
+}
+.item-container span{
+    font-size: 14px;
+    font-family:Arial,sans-serif;
+    justify-content: center;
+}
+.item-img img{
+    width: 64px;
+    height: 64px;
+}
+.down-arrow {
+    width: 10px;
+    height: 10px;
+}
+/*Advertisement part*/
+.section-container {
+    height: 249.75px;
+    background: url('https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/62fdd66868594b24.jpg?q=20');
+    background-size: cover;
+    margin-top: 17.5px;
+}
+.left-btn {
+    width: 40px;
+    height: 88px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin: 81px 0 81px 0;
+    background-color: #fff;
+}
+.Arrrow {
+    width: 15px;
+    height: 15px;
+    color: #878787;
+}
+.right-btn{
+    width: 40px;
+    height: 88px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    float: right;
+    margin: 81px 0 81px 0;
+    background-color: #fff;
+}
+.main-background {
+    width: 100%;
+    height: auto;
+    background-color: #F1F2F4;
+    padding-right: 16px;
+    padding-left: 16px;
+}

@@ -1,0 +1,41 @@
+.fashion-sellers {
+    width: 100%;
+    height: 348px;
+    margin-top: 17px;
+    background-color: rgb(255, 255, 255);
+}
+.fashion-heading {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.fashion-img-container {
+    width: 200px;
+    height: 252px;
+    padding: 6.8px;
+    margin-left: 16px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+}
+.pic-box {
+    width: 186.4px;
+    height: 186.4px;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    background-size: cover ;
+}
+.fashion-prod-name {
+    margin-top: 17px;
+}
+.fashion-items-container {
+    display: flex;
+    overflow-x: scroll;
+    height: 268px;
+    width: 100%;
+}
+.fashion-items-container::-webkit-scrollbar {
+    display: none;
+}
