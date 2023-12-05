@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@600;700&family=Roboto:wght@300;400;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -171,25 +172,44 @@ header {
 }
 .arrow {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 .item-img {
     width: 90px;
     height: 64px;
 }
 .item-container span{
-    font-size: 14px;
-    font-family:Arial,sans-serif;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
     justify-content: center;
 }
 .item-img img{
     width: 64px;
     height: 64px;
 }
-.down-arrow {
+.fa-solid {
     width: 10px;
     height: 10px;
+}
+.Grocery-hov:hover{
+    color: #2874F1;
+}
+.Grocery-hov{
+    height: 92.8px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 9px;
+    padding-bottom: 16px;
+}
+.Grocery-hov:hover .fa-solid{
+    /* inset: 50%; */
+    transform: rotate(-180deg);
+    transition: all 0.2s;
 }
 /*Advertisement part*/
 .section-container {
